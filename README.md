@@ -2,7 +2,7 @@
 ### Romi Time-trials & Demonstrations
 By Emily Nicoletta & Beneda Loya <br/>Instructor: Charlie Refvem<br/> 
 ***
-## Overview
+## :monocle_face: Overview :monocle_face:
 Our term project focuses on building and demonstrating a time-trial showcasing the mechanical and electrical design we implemented. This project is to present all of the useful tools and skills we have learned from all of the labs we have done this quarter.
 ## :classical_building: System Architecture :classical_building:
 ###  :robot: Our Wild Child of a Romi :robot:
