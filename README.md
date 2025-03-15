@@ -45,7 +45,9 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
 + `cotask.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/cotask.py)
    - Manages cooperative multitasking: written by JR Ridgely 
 + `task_share.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/task_share.py)
-   - Facilitates shared data between tasks: written by JR Ridgely 
+   - Facilitates shared data between tasks: written by JR Ridgely
+### Code Functionality
+// add in diagrams like FSM, Schuedler ..etc
 ## Requirements & Considerations <br/> 
 ### Time-Trial Track <br/>
 ![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
