@@ -23,6 +23,8 @@ Here is the pin connections in table format below!
 ![image](https://github.com/user-attachments/assets/554a8914-a075-42b0-800b-c046ddf610f1)
 ![circuit](https://github.com/user-attachments/assets/f66a9238-a684-49f4-97ae-08b2e2db9ae0) <br/>
 
+### Code
+
 ## Requirements & Considerations <br/> 
 
 ## Demonstrations <br/> 
