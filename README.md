@@ -7,6 +7,7 @@ Our term project focuses on building and demonstrating a time-trial showcasing t
 ## System Architecture 
 ### Our Wild Child of a Romi
 // insert pictures of Romi here!!
+
 ### Hardware
 + Romi Chassis kit -> [x](https://www.pololu.com/product/3504) <br/>
 + Motor Driver and Power Distribution Board -> [x](https://www.pololu.com/product/3543) <br/>
