@@ -5,6 +5,8 @@ By Emily Nicoletta & Beneda Loya <br/>Instructor: Charlie Refvem<br/>
 ## Overview
 Our term project focuses on building and demonstrating a time-trial showcasing the mechanical and electrical design we implemented. This project is to present all of the useful tools and skills we have learned from all of the labs we have done this quarter.
 ## System Architecture 
+### Our Wild Child of a Romi
+// insert pictures of Romi here!!
 ### Hardware
 + Romi Chassis kit -> [x](https://www.pololu.com/product/3504) <br/>
 + Motor Driver and Power Distribution Board -> [x](https://www.pololu.com/product/3543) <br/>
