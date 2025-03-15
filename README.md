@@ -28,7 +28,7 @@ Here is the pin connections in table format below!
 
 ### Code
 // add in a summary of the overall function of our code here! <br/>
-To see all of our in one place click here -> [x](https://github.com/captncrushh/ME405-Term_Project/tree/main/Term_project_Code)
+To see all of our code in one place click here -> [x](https://github.com/captncrushh/ME405-Term_Project/tree/main/Term_project_Code)
 + `main.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/main.py)
    - Main program that handles the functionality of Romi's behavior
 + `motor.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/motor.py)
