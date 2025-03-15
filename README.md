@@ -7,6 +7,8 @@ Our term project focuses on building and demonstrating a time-trial showcasing t
 ## System Architecture 
 ### Hardware
 ### Wiring Diagram
+!(![circuit](https://github.com/user-attachments/assets/f66a9238-a684-49f4-97ae-08b2e2db9ae0)
+
 ## Requirements & Considerations <br/> 
 
 ## Demonstrations <br/> 
