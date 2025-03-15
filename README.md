@@ -4,8 +4,8 @@ By Emily Nicoletta & Beneda Loya <br/>Instructor: Charlie Refvem<br/>
 ***
 ## Overview
 Our term project focuses on building and demonstrating a time-trial showcasing the mechanical and electrical design we implemented. This project is to present all of the useful tools and skills we have learned from all of the labs we have done this quarter.
-## System Architecture 
-### Our Wild Child of a Romi
+## :classical_building: System Architecture :classical_building:
+###  :robot: Our Wild Child of a Romi :robot:
 // insert pictures of Romi here!!
 
 ### :gear: Hardware :gear:
@@ -20,7 +20,7 @@ Our term project focuses on building and demonstrating a time-trial showcasing t
 + NiMH Battery Charger -> [x](https://www.amazon.com/dp/B00JHKSLM8) <br/>
 + Heat Shrink Tubing -> [x](https://www.amazon.com/dp/B01MFA3OFA) <br/>
 
-### Wiring Diagram
+### :knot: Wiring Diagram :knot:
 ![circuit](https://github.com/user-attachments/assets/f66a9238-a684-49f4-97ae-08b2e2db9ae0) <br/>
 To see a more detailed version of the Nucleo Pinouts click here -> [X](https://os.mbed.com/platforms/ST-Nucleo-L476RG/#microcontroller-features) <br/>
 Here is the pin connections in table format below!
@@ -46,7 +46,7 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
    - Manages cooperative multitasking: written by JR Ridgely 
 + `task_share.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/task_share.py)
    - Facilitates shared data between tasks: written by JR Ridgely
-### :memo: :pencil: Code Functionality
+### :memo:Code Functionality :memo:
 // add in diagrams like FSM, Schuedler ..etc
 // maybe also add in a brief summary of what each py file does??
 ## Requirements & Considerations <br/> 
