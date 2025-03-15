@@ -21,11 +21,10 @@ Our term project focuses on building and demonstrating a time-trial showcasing t
 + Heat Shrink Tubing -> [x](https://www.amazon.com/dp/B01MFA3OFA) <br/>
 
 ### Wiring Diagram
+![circuit](https://github.com/user-attachments/assets/f66a9238-a684-49f4-97ae-08b2e2db9ae0) <br/>
 To see a more detailed version of the Nucleo Pinouts click here -> [X](https://os.mbed.com/platforms/ST-Nucleo-L476RG/#microcontroller-features) <br/>
 Here is the pin connections in table format below!
 ![image](https://github.com/user-attachments/assets/554a8914-a075-42b0-800b-c046ddf610f1)
-![circuit](https://github.com/user-attachments/assets/f66a9238-a684-49f4-97ae-08b2e2db9ae0) <br/>
-
 ### Code
 // add in a summary of the overall function of our code here! <br/>
 To see all of our code in one place click here -> [x](https://github.com/captncrushh/ME405-Term_Project/tree/main/Term_project_Code)
