@@ -54,5 +54,8 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
 ### :stopwatch: Time-Trial Track :stopwatch: <br/>
 ![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
 ## :movie_camera: Demonstrations :film_strip: <br/>
-
+// add in the video of it doing the track in reverse for fun
+// add in the video of it complementing the track
+// add in the times for romi
 ## :sparkles: Romi's Photoshoot :sparkles: <br/>
+// 360 photos of romi
