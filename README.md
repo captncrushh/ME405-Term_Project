@@ -27,7 +27,17 @@ Here is the pin connections in table format below!
 ![circuit](https://github.com/user-attachments/assets/f66a9238-a684-49f4-97ae-08b2e2db9ae0) <br/>
 
 ### Code
-
+// add in a summary of the overall function of our code here! <br/>
+To see all of our in one place click here -> [x](https://github.com/captncrushh/ME405-Term_Project/tree/main/Term_project_Code)
++ main.py -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/main.py)
++ motor.py -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/motor.py)
++ encoder.py -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/encoder.py)
++ line_sensor.py -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/line_sensor.py)
++ bump_sensor.py -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/bump_sensor.py)
++ PID.py -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/PID.py)
++ BNO055_Driver_Class.py -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/BNO055_Driver_Class.py)
++ cotask.py-> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/cotask.py)
++ task_share.py -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/task_share.py)
 ## Requirements & Considerations <br/> 
 ### Time-Trial Track <br/>
 ![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
