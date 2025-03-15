@@ -3,7 +3,7 @@
 By Emily Nicoletta & Beneda Loya <br/>Instructor: Charlie Refvem<br/> 
 ***
 ## Overview
-Our term project focuses on building and demonstrating a time-trial showcasing the mechanical and electrical design we implemented. This project is to present all of the useful tools and skills we have learned from all of the labs we have done this quarter. 
+Our term project focuses on building and demonstrating a time-trial showcasing the mechanical and electrical design we implemented. This project is to present all of the useful tools and skills we have learned from all of the labs we have done this quarter.
 ## System Architecture 
 ### Hardware
 + Romi Chassis kit -> [x](https://www.pololu.com/product/3504) <br/>
@@ -26,5 +26,6 @@ Here is the pin connections in table format below!
 ### Code
 
 ## Requirements & Considerations <br/> 
-
+### Time-Trial Track <br/>
+![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
 ## Demonstrations <br/> 
