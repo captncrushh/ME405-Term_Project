@@ -1,4 +1,4 @@
-# ME405-Term_Project
+# ME405: Term Project
 ### Romi Time-trials & Demonstrations
 By Emily Nicoletta & Beneda Loya <br/>Instructor: Charlie Refvem<br/> 
 ***
