@@ -32,13 +32,21 @@ To see all of our in one place click here -> [x](https://github.com/captncrushh/
 + `main.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/main.py)
    - Main program that handles the functionality of Romi's behavior
 + `motor.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/motor.py)
+   - Controls our motor operations
 + `encoder.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/encoder.py)
+   - A quadrature encoder decoding interface encapsulated in a Python class
 + `line_sensor.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/line_sensor.py)
+   - Line sensor driver class that reads sensor values and normalizes raw sensor values from 0 to 1, calibrates for white & black surfaces, and calculates our centroid
 + `bump_sensor.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/bump_sensor.py)
+   - Bump sensor driver class that reads sensor values and returns them as a 6-bit binary output
 + `PID.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/PID.py)
+   - PID controller class that calculates PID controller output for a given error
 + `BNO055_Driver_Class.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/BNO055_Driver_Class.py)
+   - Interfaces the BNO055 sensor
 + `cotask.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/cotask.py)
+   - Manages cooperative multitasking: written by JR Ridgely 
 + `task_share.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/task_share.py)
+   - FFacilitates shared data between tasks: written by JR Ridgely 
 ## Requirements & Considerations <br/> 
 ### Time-Trial Track <br/>
 ![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
