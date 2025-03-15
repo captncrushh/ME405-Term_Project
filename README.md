@@ -8,7 +8,7 @@ Our term project focuses on building and demonstrating a time-trial showcasing t
 ### Our Wild Child of a Romi
 // insert pictures of Romi here!!
 
-### Hardware
+### :gear: Hardware :gear:
 + Romi Chassis kit -> [x](https://www.pololu.com/product/3504) <br/>
 + Motor Driver and Power Distribution Board -> [x](https://www.pololu.com/product/3543) <br/>
 + QTRX-MD-08A Reflectance Sensor Array: 8 Channel -> [x](https://www.pololu.com/product/4448) <br/>
@@ -25,7 +25,7 @@ Our term project focuses on building and demonstrating a time-trial showcasing t
 To see a more detailed version of the Nucleo Pinouts click here -> [X](https://os.mbed.com/platforms/ST-Nucleo-L476RG/#microcontroller-features) <br/>
 Here is the pin connections in table format below!
 ![image](https://github.com/user-attachments/assets/554a8914-a075-42b0-800b-c046ddf610f1)
-### Code
+### :computer: Code :snake:
 // add in a summary of the overall function of our code here! <br/>
 To see all of our code in one place click here -> [x](https://github.com/captncrushh/ME405-Term_Project/tree/main/Term_project_Code)
 + `main.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/main.py)
@@ -46,12 +46,12 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
    - Manages cooperative multitasking: written by JR Ridgely 
 + `task_share.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/task_share.py)
    - Facilitates shared data between tasks: written by JR Ridgely
-### Code Functionality
+### :memo: :pencil: Code Functionality
 // add in diagrams like FSM, Schuedler ..etc
 // maybe also add in a brief summary of what each py file does??
 ## Requirements & Considerations <br/> 
 ### Time-Trial Track <br/>
 ![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
-## Demonstrations <br/>
+## :movie_camera: Demonstrations :film_strip: <br/>
 
 ## :sparkles: Romi's Photoshoot :sparkles: <br/>
