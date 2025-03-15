@@ -49,8 +49,8 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
 ### :memo:Code Functionality :memo:
 // add in diagrams like FSM, Schuedler ..etc
 // maybe also add in a brief summary of what each py file does??
-## Requirements & Considerations <br/> 
-### Time-Trial Track <br/>
+## :clipboard: Requirements & Considerations :clipboard: <br/> 
+### :stopwatch: Time-Trial Track :stopwatch: <br/>
 ![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
 ## :movie_camera: Demonstrations :film_strip: <br/>
 
