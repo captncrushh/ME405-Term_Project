@@ -125,7 +125,7 @@ def Controls():
         # put data in shares
         yield 
 
-def pivot_to_zero():
+def pivot_to_zero(desired_angle):
     left_motor.enable()
     right_motor.enable()
     # print("Motors enabled, starting pivot...")
@@ -134,8 +134,8 @@ def pivot_to_zero():
     Kp = 1.5  # Proportional gain
     Kd = 1.1  # Derivative gain
 
-    while abs(( (zero) - imu.get_heading()) % 360)> 5:  # Small tolerance to stop
-        error =  ( (zero) - imu.get_heading()) % 360
+    while abs(((desired_angle) - imu.get_heading()) % 360)> 5:  # Small tolerance to stop
+        error =  ((desired_angle) - imu.get_heading()) % 360
         derivative = error - previous_error
         
         # PD control: effort is scaled by error and derivative term
@@ -154,11 +154,14 @@ def pivot_to_zero():
     right_motor.set_effort(0)
     # print("Pivot complete, motors stopped.")
 
+# define states
 S0_LINE = 0
-S1_ZERO = 1
+S1_STRAIGHTEN = 1
 S2_GRID = 2
-
-
+S3_TURN = 3
+S4_TO_WALL = 4
+S5_BACK = 5
+S6_STOP = 6
 
 # MotorTask to apply the PID controller output to the motor voltages
 def MotorTask():
@@ -174,8 +177,13 @@ def MotorTask():
         # print statement for debugging
 
         if (state == S0_LINE):
-            if (left_encoder.position > 25498 or right_encoder.position > 22229):
-                state = S1_ZERO
+            if (left_encoder.position > 24298 or right_encoder.position > 21273):
+                left_motor.set_effort(0)
+                # set left motor effort to 0
+                right_motor.set_effort(0)
+                # set right motor effort to 0
+                state = S1_STRAIGHTEN
+
             if (err < -3.5 or err > 3.5): 
                 # apply controller outputs to effort 
                 left_effort = base_effort + controller_output
@@ -219,13 +227,13 @@ def MotorTask():
                 # print encoder positions
 
 
-        elif (state == S1_ZERO):
+        elif (state == S1_STRAIGHTEN):
             imu.set_mode(BNO055.MODE_CONFIG)  # Reset IMU
             delay(500)
             imu.set_mode(BNO055.MODE_NDOF)    # Restart in sensor fusion mode
             delay(500)
             
-            pivot_to_zero()
+            pivot_to_zero(straighten)
 
             left_encoder.zero()
             right_encoder.zero()
@@ -234,15 +242,67 @@ def MotorTask():
 
 
         elif (state == S2_GRID):
-       
-            left_motor.set_effort(base_effort)
+            if (left_encoder.position > 3585 or right_encoder.position > 3427):
+                state = S3_TURN
+
+            left_motor.set_effort(base_effort - 15)
             # set left motor effort to base effort
-            right_motor.set_effort(base_effort)
+            right_motor.set_effort(base_effort + 10)
             # set right motor effort to base effort
 
             left_encoder.update()
             right_encoder.update()
             print(f'l enc: {left_encoder.position}, r enc: {right_encoder.position}') 
+
+
+        elif (state == S3_TURN):
+            imu.set_mode(BNO055.MODE_CONFIG)  # Reset IMU
+            delay(500)
+            imu.set_mode(BNO055.MODE_NDOF)    # Restart in sensor fusion mode
+            delay(500)
+            
+            pivot_to_zero(turn)
+
+            left_encoder.zero()
+            right_encoder.zero()
+
+            state = S4_TO_WALL
+
+
+        elif (state == S4_TO_WALL):
+            if (left_encoder.position > 1924 or right_encoder.position > 2233):
+                left_encoder.zero()
+                right_encoder.zero()
+                state = S5_BACK
+
+            left_motor.set_effort(base_effort - 15)
+            # set left motor effort to base effort
+            right_motor.set_effort(base_effort + 10)
+            # set right motor effort to base effort
+
+            left_encoder.update()
+            right_encoder.update()
+            print(f'l enc: {left_encoder.position}, r enc: {right_encoder.position}') 
+
+        elif (state == S5_BACK):
+            if (left_encoder.position < -500 or right_encoder.position < -500):
+                state = S6_STOP
+
+            left_motor.set_effort((-base_effort) - 15)
+            # set left motor effort to negative base effort
+            right_motor.set_effort((-base_effort) + 10)
+            # set right motor effort to negative base effort
+
+            left_encoder.update()
+            right_encoder.update()
+            print(f'l enc: {left_encoder.position}, r enc: {right_encoder.position}') 
+
+        elif (state == S6_STOP):
+            left_motor.set_effort(0)
+            # set left motor effort to 0
+            right_motor.set_effort(0)
+            # set right motor effort to 0
+
 
         yield
 
@@ -286,17 +346,30 @@ def main():
 
     print(f"Detected I2C devices: {devices}")
     
-    # pront user to get heading 
-    print("\nplace romi for zero heading")
+    # prompt user to get heading (for going staright through grid section)
+    print("\nplace romi for straightening angle heading at checkpoint 4")
     # prompt
     input()
     # wait for user confirmation via keyboard inputs
-
-    global zero
-    zero = imu.get_heading()
+    global straighten
+    # create global variable
+    straighten = imu.get_heading()
     # get current heading angle
-    print(zero)
-    # print zero heading
+    print(straighten)
+    # print straighten heading
+
+
+    # prompt user to get heading (for turning right to alighn for checkpoint 5)
+    print("\nplace romi for turning angle heading at checkpoint 5")
+    # prompt
+    input()
+    # wait for user confirmation via keyboard inputs
+    global turn
+    # create global variable
+    turn = imu.get_heading()
+    # get current heading angle
+    print(turn)
+    # print straighten heading
 
 
     # prompt user to place romi in line to follow
