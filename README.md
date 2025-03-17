@@ -46,8 +46,6 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
 + `task_share.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/task_share.py)
    - Facilitates shared data between tasks: written by JR Ridgely
 ### :memo:Code Functionality :memo:
-// add in diagrams like FSM, Schuedler ..etc
-// maybe also add in a brief summary of what each py file does??<br/>
 Task Diagram<br/>
 ![ME405 - Term Project Task Diagram](https://github.com/user-attachments/assets/a7b19dc2-1fdd-473a-a4ac-508d5f496fe6)<br/>
 
