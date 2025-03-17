@@ -64,9 +64,9 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
 |  3  |14.62|26.89|38.06|46.09|50.05| N/A |0    |   
 ## :sparkles: Romi's Photoshoot :sparkles: <br/>
 ### *Enhanced Version*
-|<img src="https://github.com/user-attachments/assets/e05df955-db58-41e5-afab-6081f345df11"/>| <img src="https://github.com/user-attachments/assets/e05df955-db58-41e5-afab-6081f345df11"/> |  
-<img src="https://github.com/user-attachments/assets/e05df955-db58-41e5-afab-6081f345df11"/> <br/>
-<img src="https://github.com/user-attachments/assets/b37fc313-4af6-4dae-9e3e-6113da41b985"/> <br/>
+|:---:                                                                                       |:---:                                                                                       | 
+|<img src="https://github.com/user-attachments/assets/e05df955-db58-41e5-afab-6081f345df11"/>|<img src="https://github.com/user-attachments/assets/e05df955-db58-41e5-afab-6081f345df11"/>|
+|<img src="https://github.com/user-attachments/assets/e05df955-db58-41e5-afab-6081f345df11"/>|<img src="https://github.com/user-attachments/assets/b37fc313-4af6-4dae-9e3e-6113da41b985"/>|
 <img src="https://github.com/user-attachments/assets/dd33e3e7-bc5a-49cd-a98b-9151e1460042"/> <br/>
 <img src="https://github.com/user-attachments/assets/11d5cb79-133a-4164-8126-b4ad1f7bad37"/> <br/>
 <img src="https://github.com/user-attachments/assets/070a01d1-c2ce-4e09-8eff-c57bbd93a4c1"/> <br/>
