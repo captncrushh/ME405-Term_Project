@@ -78,6 +78,7 @@ The end goal for the term project was to be able to hit all the checkpoints and 
 [![Theoretical Trial](https://img.youtube.com/vi/FuVvQr-vkf0/0.jpg)](https://www.youtube.com/watch?v=FuVvQr-vkf0) <br/>
 
 ### :trophy: Our Romi's Leaderboard :trophy:
+
 |Trial               |                CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|Cups |
 |:---:               |               :---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |  1                 |               12.40|23.97|35.98|41.01|47.37| N/A |0    |    
