@@ -26,7 +26,7 @@ To see a more detailed version of the Nucleo Pinouts click here -> [X](https://o
 Here is the pin connections in table format below!
 ![image](https://github.com/user-attachments/assets/554a8914-a075-42b0-800b-c046ddf610f1)
 ### :computer: Code :snake:
-Our Romi uses motor, encoder, line sensor, bump sensor, and an BNO055 imu driver for line tracking based motion as well as imu heading and encoder postion tracking motion. We developed these drivers and use given cotask and task_share files to perform priority scheduling based multitasking. In the end, we did not have funcionality to have the bump sensors interrupt motion. However, the line tracking motion used a tuned proportional-integral-derivative (PID) controller to allow for smoother motion. Additonally, we were able to use the imu to get heading readings to direct the Romi in a specific direction and use the encoders on each wheel to track the the distance the Romi moves given a certain amount of ticks. 
+Our Romi uses a motor, encoder, line sensor, bump sensor, and a BNO055 imu driver for line tracking-based motion as well as imu heading and encoder position tracking motion. We developed these drivers and used the given cotask and task_share files to perform priority scheduling-based multitasking. In the end, we did not have the functionality to have the bump sensors interrupt motion. However, the line-tracking motion used a tuned proportional-integral-derivative (PID) controller to allow for smoother motion. Additionally, we were able to use the imu to get heading readings to direct the Romi in a specific direction and use the encoders on each wheel to track the distance the Romi moves given a certain amount of ticks. 
 <br/>
 <br/>
 To see all of our code in one place click here -> [x](https://github.com/captncrushh/ME405-Term_Project/tree/main/Term_project_Code)
@@ -69,7 +69,7 @@ Given more time to tune and test, we believe we could have had the Romi working 
 
 ## :clipboard: Requirements & Considerations :clipboard: <br/> 
 The end goal for the term project was to be able to hit all the checkpoints and interact with the wall on the game track (shown below) in the shortest amount of time possible. Additionally, if the Romi is able to push the cups out of the circles, a bonus of -5s was added to the overall time. We opted to use line tracking up until checkpoint 4 and then imu heading and encoder tick-based controls afterward. We ended up having a lot of trouble with our line tracking functionality and what PID control values worked with which base efforts to get the smoothest performance. We did a lot of tuning and had various versions of the code. Additionally, we had some trouble using a reference heading angle compared to its true north when doing the math to calculate what its error was when at an arbitrary angle. Additionally, our motors do not perform the same, so giving each motor the same value did not cause it to drive in a straight line. We had to take this into consideration when doing the encoder tick-based controls. This resulted in some uncertainty with movement in the imu heading and encoder tick-based movements, so we only tested without the cage over the grid part of the game course. <br/>
-### :stopwatch: Time-Trial Track :stopwatch: <br/>
+### :traffic_light: Time-Trial Track :traffic_light: <br/>
 ![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
 ## :movie_camera: Demonstrations :film_strip: <br/>
 ### :stopwatch: Timed Track Trial :stopwatch:
