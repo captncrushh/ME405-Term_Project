@@ -48,7 +48,15 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
 ### :memo:Code Functionality :memo:
 // add in diagrams like FSM, Schuedler ..etc
 // maybe also add in a brief summary of what each py file does??
+Task Diagram
 ![ME405 - Term Project Task Diagram](https://github.com/user-attachments/assets/a7b19dc2-1fdd-473a-a4ac-508d5f496fe6)
+
+Controls Task
+![ME405 - Term Project Controls Task](https://github.com/user-attachments/assets/c69e06ab-3ef6-47f8-84b8-9d2517bd0bf8)
+
+Motor Task
+![ME405 - Term Project Motor Task](https://github.com/user-attachments/assets/86c5ae5c-04f3-4b7c-b392-78456e249069)
+
 ## :clipboard: Requirements & Considerations :clipboard: <br/> 
 // yap here
 ### :stopwatch: Time-Trial Track :stopwatch: <br/>
