@@ -73,7 +73,9 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
 |  2  |14.17|26.89|37.76|45.45|49.25| N/A |0    |     
 |  3  |14.62|26.89|38.06|46.09|50.05| N/A |0    |   
 
-*Bonus Video!!!* <br/>
+***:star2:Bonus Video!!!:star2: - Can others say their Romi can do the track in REVERSE? We didn't think so :relieved:*** <br/>
+In this video, Romi is able to do the track starting from checkpoint 5 all the way to the beginning using the IR Sensor!!! <br/>
+*Of course with the exception of needed some nudges here and there.* (The code implemented in this video is an old version of what we currently have.)
 [![Track Trial](https://img.youtube.com/vi/kFxPreD4h78/0.jpg)](https://www.youtube.com/watch?v=kFxPreD4h78) <br/>
 
 ## :sparkles: Romi's Photoshoot :sparkles: <br/>
