@@ -70,19 +70,22 @@ We drafted some code for the rest of the states that the Romi would theoreticall
 ## :movie_camera: Demonstrations :film_strip: <br/>
 
 [![Track Trial](https://img.youtube.com/vi/YOb_HbBaUi0/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0) <br/>
+[![Theoreticl Trial](https://img.youtube.com/vi/YOb_HbBaUi0/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0) <br/>
 
 |Trial               |                CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|Cups |
 |:---:               |               :---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |  1                 |               12.40|23.97|35.98|41.01|47.37| N/A |0    |    
 |  2                 |               14.17|26.89|37.76|45.45|49.25| N/A |0    |     
 |  3                 |               14.62|26.89|38.06|46.09|50.05| N/A |0    |
-|  Theoretical trial |               14.62|26.89|38.06|46.09|50.05| N/A |0    |
+|  Theoretical trial |               10.96|21.40|33.67|41.70|46.58|57.01|"1"  |
 
 ***:star2:Bonus Video!!!:star2:*** **Can others say their Romi can do the track in REVERSE? We didn't think so :relieved:** <br/>
-In this video, Romi is able to do the track starting from checkpoint 5 all the way to the beginning using the IR Sensor!!! <br/>
-*Of course with the exception of needed some nudges here and there.* <br/>
+In this video, Romi is able to do the track starting from checkpoint 5 to the beginning using only the IR Sensor!!! <br/>
+*Of course with the exception of needing some nudges here and there.* <br/>
 (The code implemented in this video is an old version of what we currently have.)
 [![Track Trial](https://img.youtube.com/vi/kFxPreD4h78/0.jpg)](https://www.youtube.com/watch?v=kFxPreD4h78) <br/>
+[![Theoretical Trail](https://img.youtube.com/vi/foPPc98IBt8/0.jpg)](https://www.youtube.com/watch?v=foPPc98IBt8) <br/>
+
 
 ## :sparkles: Romi's Photoshoot :sparkles: <br/>
 ### *Enhanced Version*
