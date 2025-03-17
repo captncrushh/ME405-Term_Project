@@ -162,6 +162,14 @@ S3_TURN = 3
 S4_TO_WALL = 4
 S5_BACK = 5
 S6_STOP = 6
+# theoretical states to complete course
+# S6_AWAY_FROM_WALL = 6
+# S7_DRIVE_WALL = 7
+# S8_AROUND = 8
+# S9_DRIVE_AROUND = 9
+# S10_FINISH = 10
+# S11_DRIVE_FINISH =11
+# S12_STOP = 12
 
 # MotorTask to apply the PID controller output to the motor voltages
 def MotorTask():
@@ -284,9 +292,11 @@ def MotorTask():
             right_encoder.update()
             print(f'l enc: {left_encoder.position}, r enc: {right_encoder.position}') 
 
+
         elif (state == S5_BACK):
             if (left_encoder.position < -500 or right_encoder.position < -500):
                 state = S6_STOP
+                # state = S6_AWAY_FROM_WALL
 
             left_motor.set_effort((-base_effort) - 15)
             # set left motor effort to negative base effort
@@ -303,6 +313,105 @@ def MotorTask():
             right_motor.set_effort(0)
             # set right motor effort to 0
 
+        '''
+        The following code is our theoretical solution to completing the rest
+        of the game course. Above only controls the Romi to checkpoint 4 via 
+        line tracking, then transition to imu heading and encoder tracking 
+        based movement to traverse the grid portion, hit checkpoint 5,  
+        drive the wall, and back up slightly. The following implementation 
+        would still be using imu heading and encoder tracking to control the
+        Romi around the wall and back to the start/finish location.
+
+        elif (state == S6_AWAY_FROM_WALL):
+            imu.set_mode(BNO055.MODE_CONFIG)  # Reset IMU
+            delay(500)
+            imu.set_mode(BNO055.MODE_NDOF)    # Restart in sensor fusion mode
+            delay(500)
+            
+            pivot_to_zero(wall)
+
+            left_encoder.zero()
+            right_encoder.zero()
+
+            state = S7_DRIVE_WALL
+
+
+        elif (state == S7_DRIVE_WALL):
+            if (left_encoder.position > 500 or right_encoder.position > 500):
+                state = S8_AROUND
+
+            left_motor.set_effort(base_effort - 15)
+            # set left motor effort to base effort
+            right_motor.set_effort(base_effort + 10)
+            # set right motor effort to base effort
+
+            left_encoder.update()
+            right_encoder.update()
+            print(f'l enc: {left_encoder.position}, r enc: {right_encoder.position}')
+
+
+        elif (state == S8_AROUND):
+            imu.set_mode(BNO055.MODE_CONFIG)  # Reset IMU
+            delay(500)
+            imu.set_mode(BNO055.MODE_NDOF)    # Restart in sensor fusion mode
+            delay(500)
+            
+            pivot_to_zero(around)
+
+            left_encoder.zero()
+            right_encoder.zero()
+
+            state = S9_DRIVE_AROUND
+
+
+        elif (state == S9_DRIVE_AROUND):
+            if (left_encoder.position > 200 or right_encoder.position > 200):
+                state = S10_FINISH
+
+            left_motor.set_effort(base_effort - 15)
+            # set left motor effort to base effort
+            right_motor.set_effort(base_effort + 10)
+            # set right motor effort to base effort
+
+
+            left_encoder.update()
+            right_encoder.update()
+            print(f'l enc: {left_encoder.position}, r enc: {right_encoder.position}')
+
+        elif (state == S10_FINISH):
+            imu.set_mode(BNO055.MODE_CONFIG)  # Reset IMU
+            delay(500)
+            imu.set_mode(BNO055.MODE_NDOF)    # Restart in sensor fusion mode
+            delay(500)
+            
+            pivot_to_zero(finish)
+
+            left_encoder.zero()
+            right_encoder.zero()
+
+            state = S11_DRIVE_FINISH
+
+
+        elif (state == S11_DRIVE_FINISH):
+            if (left_encoder.position > 500 or right_encoder.position > 500):
+                state = S12_STOP
+
+            left_motor.set_effort(base_effort - 15)
+            # set left motor effort to base effort
+            right_motor.set_effort(base_effort + 10)
+            # set right motor effort to base effort
+
+            left_encoder.update()
+            right_encoder.update()
+            print(f'l enc: {left_encoder.position}, r enc: {right_encoder.position}')
+
+
+        elif (state == S12_STOP):
+            left_motor.set_effort(0)
+            # set left motor effort to 0
+            right_motor.set_effort(0)
+            # set right motor effort to 0
+        '''
 
         yield
 
@@ -359,7 +468,7 @@ def main():
     # print straighten heading
 
 
-    # prompt user to get heading (for turning right to alighn for checkpoint 5)
+    # prompt user to get heading (for turning right to align for checkpoint 5)
     print("\nplace romi for turning angle heading at checkpoint 5")
     # prompt
     input()
@@ -369,8 +478,51 @@ def main():
     turn = imu.get_heading()
     # get current heading angle
     print(turn)
-    # print straighten heading
+    # print turn heading
 
+
+    '''
+    The following code would be to gather more heading angles for the direction
+    we want the Romi to go to complete the rest of the game course. Currently,
+    the Romi can only get to the wall.
+    
+
+    # prompt user to get heading (for turning away from wall)
+    print("\nplace romi for turning angle heading away from wall")
+    # prompt
+    input()
+    # wait for user confirmation via keyboard inputs
+    global wall
+    # create global variable
+    wall = imu.get_heading()
+    # get current heading angle
+    print(wall)
+    # print wall heading
+
+    # prompt user to get heading (for turning around wall)
+    print("\nplace romi for turning angle heading around wall")
+    # prompt
+    input()
+    # wait for user confirmation via keyboard inputs
+    global around
+    # create global variable
+    around = imu.get_heading()
+    # get current heading angle
+    print(around)
+    # print around heading
+
+    # prompt user to get heading (for turning to finish)
+    print("\nplace romi for turning angle heading to finish")
+    # prompt
+    input()
+    # wait for user confirmation via keyboard inputs
+    global finish
+    # create global variable
+    finish = imu.get_heading()
+    # get current heading angle
+    print(finish)
+    # print finish heading
+    '''
 
     # prompt user to place romi in line to follow
     print("\nplace romi on line to follow and press ENTER")
