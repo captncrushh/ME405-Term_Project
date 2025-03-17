@@ -70,7 +70,7 @@ The end goal for the term project was to be able to hit all the checkpoints and 
 [![Track Trial](https://img.youtube.com/vi/YOb_HbBaUi0/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0) <br/>
 ### :nerd_face: Timed Theoretical Trial :nerd_face:
 [![Theoretical Trail](https://img.youtube.com/vi/foPPc98IBt8/0.jpg)](https://www.youtube.com/watch?v=foPPc98IBt8) <br/>
-### :trophy: Our Romi's LeaderBoard :trophy:
+### :trophy: Our Romi's Leaderboard :trophy:
 |Trial               |                CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|Cups |
 |:---:               |               :---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |  1                 |               12.40|23.97|35.98|41.01|47.37| N/A |0    |    
