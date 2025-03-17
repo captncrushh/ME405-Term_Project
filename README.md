@@ -55,10 +55,10 @@ Before running the tasks, the main code prompts the user to help calibrate the R
 Our main.py files houses both the controls task and the motor task. We were unsuccessful in implementing tasks as individual classes in separate Python files and utilizing instances of them. So, we choose to implement tasks simply as functions in the main Python file. We still used shares for variables used across both functions (error, controller output), but some other variables that are attributes of other object instances are just called when they should maybe be a share or queue (motor efforts, encoder positions). Additionally, we struggled a little bit with the timing and priorities of the tasks. We used the trace printed in the terminal at the end of each run to determine the average and maximum run times for each task and adjusted the periods accordingly. Knowing the timing allowed us to ensure that we were giving enough time for the task to fully run before alternating to the other task. Furthermore, we ended up having both tasks being the same priority meaning that they would just run round-robin style with each other. We found that changing the priorities would result in lower-priority tasks not running at all. <br/> <br/>
   ![ME405 - Term Project Task Diagram](https://github.com/user-attachments/assets/a7b19dc2-1fdd-473a-a4ac-508d5f496fe6) <br/>
   
-| Shared Variable Name | Data Type | Purpose                                                                                       |
-|:---:                 |:---:      |                                                                                          :---:|
-| error                | float     | holds the error value which is the centroid (where the line is detected) from the line sensor |
-| correction           | float     | holds the value of the controller output                                                      |
+   | Shared Variable Name | Data Type | Purpose                                                                                       |
+   |:---:                 |:---:      |                                                                                          :---:|
+   | error                | float     | holds the error value which is the centroid (where the line is detected) from the line sensor |
+   | correction           | float     | holds the value of the controller output                                                      |
 
 <br/>
 
