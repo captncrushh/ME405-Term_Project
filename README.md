@@ -49,7 +49,7 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
    - Facilitates shared data between tasks: written by JR Ridgely
 ### :memo:Code Functionality :memo:
 + ***Task Diagram*** <br/>
-
+Our main.py files houses both the controls task and motor task. We were unsuccesful implementing tasks as individual classes in seperate python files and ultilizing instances of them. So, we choose to implement task simply as functions in the main python file. We still used shares for variables used across both functions (error, controller output), but some other variables that are attributes of other object instances are just called when they should maybe be a share or queue (motor efforts, encoder positions). Additionally, we struggled a little bit with the timing and priorties of the tasks. We used the trace printed in the terminal at the end of each run to determine the average and maximum run times for each task and ajusted the periods accordingly. Furthermore, we ended up having both tasks being the same priority meaning that theyr would juse run round-robin style with each other. We found that changing the priority would result in lower priority task not running at all.
   ![ME405 - Term Project Task Diagram](https://github.com/user-attachments/assets/a7b19dc2-1fdd-473a-a4ac-508d5f496fe6)<br/>
 
 + ***Controls Task*** <br/>
@@ -65,17 +65,15 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
 ### :stopwatch: Time-Trial Track :stopwatch: <br/>
 ![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
 ## :movie_camera: Demonstrations :film_strip: <br/>
-### ###
+
 [![Track Trial](https://img.youtube.com/vi/YOb_HbBaUi0/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0) <br/>
-
-
 
 |Trial               |                CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|Cups |
 |:---:               |               :---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |  1                 |               12.40|23.97|35.98|41.01|47.37| N/A |0    |    
 |  2                 |               14.17|26.89|37.76|45.45|49.25| N/A |0    |     
 |  3                 |               14.62|26.89|38.06|46.09|50.05| N/A |0    |
-|  Theoreticall trial|               14.62|26.89|38.06|46.09|50.05| N/A |0    |
+|  Theoretical trial |               14.62|26.89|38.06|46.09|50.05| N/A |0    |
 
 ***:star2:Bonus Video!!!:star2:*** **Can others say their Romi can do the track in REVERSE? We didn't think so :relieved:** <br/>
 In this video, Romi is able to do the track starting from checkpoint 5 all the way to the beginning using the IR Sensor!!! <br/>
