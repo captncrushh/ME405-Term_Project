@@ -61,9 +61,9 @@ Our main.py files houses both the controls task and the motor task. We were unsu
 | correction           | float     | holds the value of the controller output                                                      |
 
 <br/>
+
 + ***Controls Task*** <br/>
-The controls task records the current time and gets the centroid value from the line sensor, then sets the error equal to the centroid value and records the time again. Next, it computes the controller output values using the error and difference in recorded times. The error value and controller output value are then put into shares so that they can be used by the motor task. In this task, the controller output is capped between -50 and 50. We did a lot of trial and error tuning with the PID gains, and a lot of the time when including all Kp, Ki, and Kd constants, the controller output was very large. So, when applying it the the motors, there was great differences between the motor outputs. This resulted in a lot of overcorrection and jerky movements. <br/> <br/>
-![ME405 - Term Project Controls Task](https://github.com/user-attachments/assets/75cd1b64-8102-4056-a6a2-ebda9777a91a)
+The controls task records the current time and gets the centroid value from the line sensor, then sets the error equal to the centroid value and records the time again. Next, it computes the controller output values using the error and difference in recorded times. The error value and controller output value are then put into shares so that they can be used by the motor task. In this task, the controller output is capped between -50 and 50. We did a lot of trial and error tuning with the PID gains, and a lot of the time when including all Kp, Ki, and Kd constants, the controller output was very large. So, when applying it the the motors, there was great differences between the motor outputs. This resulted in a lot of overcorrection and jerky movements. <br/>
 <br/>
 
 + ***Motor Task*** <br/>
