@@ -27,6 +27,7 @@ Here is the pin connections in table format below!
 ### :computer: Code :snake:
 Our Romi uses motor, encoder, line sensor, bump sensor, and an BNO055 imu driver for line tracking based motion as well as imu heading and encoder postion tracking motion. We developed these drivers and use given cotask and task_share files to perform priority scheduling based multitasking. In the end, we did not have funcionality to have the bump sensors to interrupt motion. However, the line tracking motion used a tuned proportional-integral-derivative (PID) controller to allow for smoother motion. Additonally, we were able to use the imu to get heading readings to direct the Romi in a specific direction and use the encoders on each wheel to track the the distance the Romi moves given a certain amount of ticks. 
 <br/>
+<br/>
 To see all of our code in one place click here -> [x](https://github.com/captncrushh/ME405-Term_Project/tree/main/Term_project_Code)
 + `main.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/main.py)
    - Main program that handles the functionality of Romi's behavior
