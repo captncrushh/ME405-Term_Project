@@ -48,6 +48,7 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
 ### :memo:Code Functionality :memo:
 // add in diagrams like FSM, Schuedler ..etc
 // maybe also add in a brief summary of what each py file does??
+![ME405 - Term Project Task Diagram](https://github.com/user-attachments/assets/a7b19dc2-1fdd-473a-a4ac-508d5f496fe6)
 ## :clipboard: Requirements & Considerations :clipboard: <br/> 
 // yap here
 ### :stopwatch: Time-Trial Track :stopwatch: <br/>
