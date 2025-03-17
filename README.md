@@ -55,7 +55,6 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
 ## :movie_camera: Demonstrations :film_strip: <br/>
 + add in the video of it doing the track in reverse for fun
 + add in the video of it complementing the track
-+ add in the times for romi <br/>
 
 |Trial| CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|Cups |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
