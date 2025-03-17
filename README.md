@@ -57,11 +57,11 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
 + add in the video of it complementing the track
 + add in the times for romi <br/>
 
-|Trial| CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|  1  |12.40|23.97|35.98|41.01|47.37| N/A |    
-|  2  |14.17|26.89|37.76|45.45|49.25| N/A |     
-|  3  |14.62|26.89|38.06|46.09|50.05| N/A |   
+|Trial| CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|Cups |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|  1  |12.40|23.97|35.98|41.01|47.37| N/A |0    |    
+|  2  |14.17|26.89|37.76|45.45|49.25| N/A |0    |     
+|  3  |14.62|26.89|38.06|46.09|50.05| N/A |0    |   
 ## :sparkles: Romi's Photoshoot :sparkles: <br/>
 ### *Enhanced Version*
 <img src="https://github.com/user-attachments/assets/e05df955-db58-41e5-afab-6081f345df11"/> <br/>
