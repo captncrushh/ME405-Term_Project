@@ -64,7 +64,7 @@ Motor Task<br/>
 + add in the video of it doing the track in reverse for fun <br/>
 + add in the video of it complementing the track <br/>
 
-[![Track Trial](https://img.youtube.com/vi/YOb_HbBaUi0?si=EPy07hzMK3LaYQmP/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0?si=EPy07hzMK3LaYQmP) <br/>
+[![Track Trial](https://img.youtube.com/vi/YOb_HbBaUi0/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0) <br/>
 
 |Trial| CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|Cups |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -72,7 +72,7 @@ Motor Task<br/>
 |  2  |14.17|26.89|37.76|45.45|49.25| N/A |0    |     
 |  3  |14.62|26.89|38.06|46.09|50.05| N/A |0    |   
 
-*Bonus Video!!!* 
+*Bonus Video!!!* <br/>
 [![Track Trial](https://img.youtube.com/vi/kFxPreD4h78/0.jpg)](https://www.youtube.com/watch?v=kFxPreD4h78) <br/>
 
 ## :sparkles: Romi's Photoshoot :sparkles: <br/>
