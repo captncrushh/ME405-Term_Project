@@ -53,9 +53,13 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
 ### :stopwatch: Time-Trial Track :stopwatch: <br/>
 ![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
 ## :movie_camera: Demonstrations :film_strip: <br/>
-// add in the video of it doing the track in reverse for fun
-// add in the video of it complementing the track
-// add in the times for romi
++ add in the video of it doing the track in reverse for fun
++ add in the video of it complementing the track
++ add in the times for romi
+| Trial        | CP#1 | CP#2 |  CP#3 |
+| :---:        |     :---:      |          ---: |
+|  1   | git status     | git status    |
+|  2     | git diff       | git diff      |
 ## :sparkles: Romi's Photoshoot :sparkles: <br/>
 ### *Enhanced Version*
 <img src="https://github.com/user-attachments/assets/e05df955-db58-41e5-afab-6081f345df11"/> <br/>
