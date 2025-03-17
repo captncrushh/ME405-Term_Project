@@ -6,7 +6,7 @@ By: Emily Nicoletta & Beneda Loya <br/>Instructor: Charlie Refvem<br/>
 Our term project focuses on building and demonstrating a time-trial showcasing the mechanical and electrical design we implemented. This project is to present all of the useful tools and skills we have learned from all of the labs we have done this quarter.
 ## :classical_building: System Architecture :classical_building:
 ###  :robot: Our Wild Child of a Romi :robot:
-// insert pictures of Romi here!!
+![image](https://github.com/user-attachments/assets/220ccc75-52e3-466b-ba17-f61fb5f1a81c)
 
 ### :gear: Hardware :gear:
 + Romi Chassis kit -> [x](https://www.pololu.com/product/3504) <br/>
@@ -58,6 +58,7 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
 // add in the video of it complementing the track
 // add in the times for romi
 ## :sparkles: Romi's Photoshoot :sparkles: <br/>
+![image](https://github.com/user-attachments/assets/e05df955-db58-41e5-afab-6081f345df11)
 ![IMG_6389](https://github.com/user-attachments/assets/b37fc313-4af6-4dae-9e3e-6113da41b985)
 ![IMG_6391](https://github.com/user-attachments/assets/dd33e3e7-bc5a-49cd-a98b-9151e1460042)
 ![IMG_6393](https://github.com/user-attachments/assets/11d5cb79-133a-4164-8126-b4ad1f7bad37)
