@@ -63,7 +63,7 @@ Motor Task<br/>
 ## :movie_camera: Demonstrations :film_strip: <br/>
 + add in the video of it doing the track in reverse for fun <br/>
 + add in the video of it complementing the track <br/>
-[![Track Trial](https://img.youtube.com/shorts/YOb_HbBaUi0?si=EPy07hzMK3LaYQmP/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0?si=EPy07hzMK3LaYQmP)
+[![Track Trial](https://img.youtube.com/vi/YOb_HbBaUi0?si=EPy07hzMK3LaYQmP/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0?si=EPy07hzMK3LaYQmP)
 |Trial| CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|Cups |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |  1  |12.40|23.97|35.98|41.01|47.37| N/A |0    |    
