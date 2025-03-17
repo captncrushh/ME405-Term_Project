@@ -47,15 +47,15 @@ To see all of our code in one place click here -> [x](https://github.com/captncr
    - Facilitates shared data between tasks: written by JR Ridgely
 ### :memo:Code Functionality :memo:
 // add in diagrams like FSM, Schuedler ..etc
-// maybe also add in a brief summary of what each py file does??
-Task Diagram
-![ME405 - Term Project Task Diagram](https://github.com/user-attachments/assets/a7b19dc2-1fdd-473a-a4ac-508d5f496fe6)
+// maybe also add in a brief summary of what each py file does??<br/>
+Task Diagram<br/>
+![ME405 - Term Project Task Diagram](https://github.com/user-attachments/assets/a7b19dc2-1fdd-473a-a4ac-508d5f496fe6)<br/>
 
-Controls Task
-![ME405 - Term Project Controls Task](https://github.com/user-attachments/assets/c69e06ab-3ef6-47f8-84b8-9d2517bd0bf8)
+Controls Task<br/>
+![ME405 - Term Project Controls Task](https://github.com/user-attachments/assets/c69e06ab-3ef6-47f8-84b8-9d2517bd0bf8)<br/>
 
-Motor Task
-![ME405 - Term Project Motor Task](https://github.com/user-attachments/assets/86c5ae5c-04f3-4b7c-b392-78456e249069)
+Motor Task<br/>
+![ME405 - Term Project Motor Task](https://github.com/user-attachments/assets/86c5ae5c-04f3-4b7c-b392-78456e249069)<br/>
 
 ## :clipboard: Requirements & Considerations :clipboard: <br/> 
 // yap here
