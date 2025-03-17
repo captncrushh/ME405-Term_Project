@@ -66,9 +66,9 @@ We drafted some code for the rest of the states that the Romi would theoreticall
 ## :clipboard: Requirements & Considerations :clipboard: <br/> 
 The end goal for the term project was to be able to hit all the checkpoints and interact with the wall on the game track (shown below) in the shortest amount of time possible. Additionally, if the Romi is able to push the the cups out of the circles, a bonus of -5s was added to the overall time. We opted to use line tracking up until checkpoint 4 and then imu heading and encoder tick based controls afterwards. We ended up having a lot of trouble with our line tracking functionality and what PID control values worked with which base efforts to get the smoothest performance. We did a lot of tuning and had various versions of the code. Additionally, we had some trouble using a reference heading angle compared to its true north when doing the math the math to calculate what its error was when at an arbitrary angle. Additionally, it our motor do not perform the same so giving each motor the same value did not cause it to drive in a straight line. We had to take this into consideration when doing the encoder tick based controls. <br/>
 ## :movie_camera: Demonstrations :film_strip: <br/>
-### Timed Track Trial
+### :stopwatch: Timed Track Trial :stopwatch:
 [![Track Trial](https://img.youtube.com/vi/YOb_HbBaUi0/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0) <br/>
-### Timed Theoretical Trial
+### :nerd_face: Timed Theoretical Trial :nerd_face:
 [![Theoretical Trail](https://img.youtube.com/vi/foPPc98IBt8/0.jpg)](https://www.youtube.com/watch?v=foPPc98IBt8) <br/>
 ### :trophy: Our Romi's LeaderBoard :trophy:
 |Trial               |                CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|Cups |
@@ -85,7 +85,7 @@ In this video, Romi is able to do the track starting from checkpoint 5 to the be
 [![Track Trial](https://img.youtube.com/vi/kFxPreD4h78/0.jpg)](https://www.youtube.com/watch?v=kFxPreD4h78) <br/>
 
 ## :sparkles: Romi's Photoshoot :sparkles: <br/>
-### *Enhanced Version*
+### :camera_flash:*Enhanced Version*:camera_flash:
 <img src="https://github.com/user-attachments/assets/e05df955-db58-41e5-afab-6081f345df11"/> <br/>
 <img src="https://github.com/user-attachments/assets/e05df955-db58-41e5-afab-6081f345df11"/> <br/>
 <img src="https://github.com/user-attachments/assets/e05df955-db58-41e5-afab-6081f345df11"/> <br/>
