@@ -25,7 +25,8 @@ To see a more detailed version of the Nucleo Pinouts click here -> [X](https://o
 Here is the pin connections in table format below!
 ![image](https://github.com/user-attachments/assets/554a8914-a075-42b0-800b-c046ddf610f1)
 ### :computer: Code :snake:
-// add in a summary of the overall function of our code here! <br/>
+Our Romi uses motor, encoder, line sensor, bump sensor, and an BNO055 imu driver for line tracking based motion as well as imu heading and encoder postion tracking motion. We developed these drivers and use given cotask and task_share files to perform priority scheduling based multitasking. In the end, we did not have funcionality to have the bump sensors to interrupt motion. However, the line tracking motion used a tuned proportional-integral-derivative (PID) controller to allow for smoother motion. Additonally, we were able to use the imu to get heading readings to direct the Romi in a specific direction and use the encoders on each wheel to track the the distance the Romi moves given a certain amount of ticks. 
+<br/>
 To see all of our code in one place click here -> [x](https://github.com/captncrushh/ME405-Term_Project/tree/main/Term_project_Code)
 + `main.py` -> [x](https://github.com/captncrushh/ME405-Term_Project/blob/main/Term_project_Code/main.py)
    - Main program that handles the functionality of Romi's behavior
@@ -62,8 +63,7 @@ Motor Task<br/>
 ## :movie_camera: Demonstrations :film_strip: <br/>
 + add in the video of it doing the track in reverse for fun
 + add in the video of it complementing the track
-//https://youtube.com/shorts/YOb_HbBaUi0?feature=share
-//https://youtu.be/kFxPreD4h78 
+
 |Trial| CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|Cups |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |  1  |12.40|23.97|35.98|41.01|47.37| N/A |0    |    
