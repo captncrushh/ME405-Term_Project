@@ -68,9 +68,10 @@ We drafted some code for the rest of the states that the Romi would theoreticall
 ### :stopwatch: Time-Trial Track :stopwatch: <br/>
 ![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
 ## :movie_camera: Demonstrations :film_strip: <br/>
-
+### Timed Track Trial
 [![Track Trial](https://img.youtube.com/vi/YOb_HbBaUi0/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0) <br/>
-[![Theoreticl Trial](https://img.youtube.com/vi/YOb_HbBaUi0/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0) <br/>
+### Timed Theoretical Trial
+[![Theoretical Trail](https://img.youtube.com/vi/foPPc98IBt8/0.jpg)](https://www.youtube.com/watch?v=foPPc98IBt8) <br/>
 
 |Trial               |                CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|Cups |
 |:---:               |               :---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -84,8 +85,6 @@ In this video, Romi is able to do the track starting from checkpoint 5 to the be
 *Of course with the exception of needing some nudges here and there.* <br/>
 (The code implemented in this video is an old version of what we currently have.)
 [![Track Trial](https://img.youtube.com/vi/kFxPreD4h78/0.jpg)](https://www.youtube.com/watch?v=kFxPreD4h78) <br/>
-[![Theoretical Trail](https://img.youtube.com/vi/foPPc98IBt8/0.jpg)](https://www.youtube.com/watch?v=foPPc98IBt8) <br/>
-
 
 ## :sparkles: Romi's Photoshoot :sparkles: <br/>
 ### *Enhanced Version*
