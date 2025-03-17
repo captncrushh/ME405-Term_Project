@@ -73,8 +73,8 @@ Motor Task<br/>
 |  3  |14.62|26.89|38.06|46.09|50.05| N/A |0    |   
 
 *Bonus Video!!!* 
-[![Track Trial](https://img.youtube.com/vi/kFxPreD4h78?si=IzMVmImKnmmU0MwP/0.jpg)](https://www.youtube.com/watch?v=kFxPreD4h78?si=IzMVmImKnmmU0MwP) <br/>
-<iframe width="1047" height="589" src="https://www.youtube.com/embed/kFxPreD4h78" title="ME 405 - Reverse" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Track Trial](https://img.youtube.com/vi/kFxPreD4h78/0.jpg)](https://www.youtube.com/watch?v=kFxPreD4h78) <br/>
+
 ## :sparkles: Romi's Photoshoot :sparkles: <br/>
 ### *Enhanced Version*
 <img src="https://github.com/user-attachments/assets/e05df955-db58-41e5-afab-6081f345df11"/> <br/>
