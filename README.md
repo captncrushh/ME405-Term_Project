@@ -8,8 +8,9 @@ Our term project focuses on building and demonstrating a time-trial showcasing t
 ###  :robot: Our Wild Child of a Romi :robot:
 <img src="https://github.com/user-attachments/assets/220ccc75-52e3-466b-ba17-f61fb5f1a81c" width="600" height ="550" /> <br/>
 ### :gear: Hardware :gear:
-+ Romi Chassis kit -> [x](https://www.pololu.com/product/3504) <br/>
-+ Motor Driver and Power Distribution Board -> [x](https://www.pololu.com/product/3543) <br/>
++ Romi Chassis kit ( provided to us ) -> [x](https://www.pololu.com/product/3504) <br/>
++ Motor Driver and Power Distribution Board ( provided to us ) -> [x](https://www.pololu.com/product/3543) <br/>
++ Romi & Shoe ( provided to us ) -> [x](NUCLEO-L476RG) <br/>
 + QTRX-MD-08A Reflectance Sensor Array: 8 Channel -> [x](https://www.pololu.com/product/4448) <br/>
 + Left Bumper switch Assembly -> [x](https://www.pololu.com/product/3673) <br/>
 + Right Bumper switch Assembly -> [x](https://www.pololu.com/product/3674) <br/>
