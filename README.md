@@ -72,10 +72,10 @@ The end goal for the term project was to be able to hit all the checkpoints and 
 ### :stopwatch: Time-Trial Track :stopwatch: <br/>
 ![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
 ## :movie_camera: Demonstrations :film_strip: <br/>
-### :stopwatch:Timed Track Trial :stopwatch:
+### :stopwatch: Timed Track Trial :stopwatch:
 [![Track Trial](https://img.youtube.com/vi/YOb_HbBaUi0/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0) <br/>
 ### :nerd_face: Theoretical Timed Trial :nerd_face:
-[![Theoretical Trial](https://img.youtube.com/vi/YfoPPc98IBt8/0.jpg)](https://www.youtube.com/watch?v=foPPc98IBt8) <br/>
+[![Theoretical Trial](https://img.youtube.com/vi/foPPc98IBt8/0.jpg)](https://www.youtube.com/watch?v=foPPc98IBt8) <br/>
 ### :trophy: Our Romi's Leaderboard :trophy:
 |Trial               |                CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|Cups |
 |:---:               |               :---:|:---:|:---:|:---:|:---:|:---:|:---:|
