@@ -61,8 +61,6 @@ Motor Task<br/>
 ### :stopwatch: Time-Trial Track :stopwatch: <br/>
 ![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
 ## :movie_camera: Demonstrations :film_strip: <br/>
-+ add in the video of it doing the track in reverse for fun <br/>
-+ add in the video of it complementing the track <br/>
 
 [![Track Trial](https://img.youtube.com/vi/YOb_HbBaUi0/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0) <br/>
 
