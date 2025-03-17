@@ -65,22 +65,22 @@ We drafted some code for the rest of the states that the Romi would theoreticall
 
 ## :clipboard: Requirements & Considerations :clipboard: <br/> 
 The end goal for the term project was to be able to hit all the checkpoints and interact with the wall on the game track (shown below) in the shortest amount of time possible. Additionally, if the Romi is able to push the the cups out of the circles, a bonus of -5s was added to the overall time. We opted to use line tracking up until checkpoint 4 and then imu heading and encoder tick based controls afterwards. We ended up having a lot of trouble with our line tracking functionality and what PID control values worked with which base efforts to get the smoothest performance. We did a lot of tuning and had various versions of the code. Additionally, we had some trouble using a reference heading angle compared to its true north when doing the math the math to calculate what its error was when at an arbitrary angle. Additionally, it our motor do not perform the same so giving each motor the same value did not cause it to drive in a straight line. We had to take this into consideration when doing the encoder tick based controls. <br/>
-### :stopwatch: Time-Trial Track :stopwatch: <br/>
-![image](https://github.com/user-attachments/assets/e8a353c0-c669-417b-954b-f5ed3fb6d694) <br/>
 ## :movie_camera: Demonstrations :film_strip: <br/>
-
+### Timed Track Trial
 [![Track Trial](https://img.youtube.com/vi/YOb_HbBaUi0/0.jpg)](https://www.youtube.com/watch?v=YOb_HbBaUi0) <br/>
-
+### Timed Theoretical Trial
+[![Theoretical Trail](https://img.youtube.com/vi/foPPc98IBt8/0.jpg)](https://www.youtube.com/watch?v=foPPc98IBt8) <br/>
+### :trophy: Our Romi's LeaderBoard :trophy:
 |Trial               |                CP#1| CP#2| CP#3| CP#4| CP#5| CP#6|Cups |
 |:---:               |               :---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |  1                 |               12.40|23.97|35.98|41.01|47.37| N/A |0    |    
 |  2                 |               14.17|26.89|37.76|45.45|49.25| N/A |0    |     
 |  3                 |               14.62|26.89|38.06|46.09|50.05| N/A |0    |
-|  Theoretical trial |               14.62|26.89|38.06|46.09|50.05| N/A |0    |
+|  Theoretical trial |               10.96|21.40|33.67|41.70|46.58|57.01|"1"  |
 
 ***:star2:Bonus Video!!!:star2:*** **Can others say their Romi can do the track in REVERSE? We didn't think so :relieved:** <br/>
-In this video, Romi is able to do the track starting from checkpoint 5 all the way to the beginning using the IR Sensor!!! <br/>
-*Of course with the exception of needed some nudges here and there.* <br/>
+In this video, Romi is able to do the track starting from checkpoint 5 to the beginning using only the IR Sensor!!! <br/>
+*Of course with the exception of needing some nudges here and there.* <br/>
 (The code implemented in this video is an old version of what we currently have.)
 [![Track Trial](https://img.youtube.com/vi/kFxPreD4h78/0.jpg)](https://www.youtube.com/watch?v=kFxPreD4h78) <br/>
 
